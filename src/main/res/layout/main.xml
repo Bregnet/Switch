@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#ED271A">
+
+	<LinearLayout
+		android:layout_height="200dp"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:padding="10dp"
+		android:background="#DA180B">
+
+		<LinearLayout
+			android:layout_height="50dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="#07064C"
+			android:gravity="center">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Show Hide"
+				android:layout_width="wrap_content"
+				android:textSize="25sp"
+				android:textColor="#E12B1F"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="#42CE21"
+			android:gravity="center">
+
+			<ImageView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:src="@drawable/img"
+				android:id="@+id/img1"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:background="#081EEA"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp">
+
+		<Switch
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/MySwicth"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:padding="10dp">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:gravity="center"
+				android:background="#05145D">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Swicth Status"
+					android:layout_width="wrap_content"
+					android:textSize="25sp"
+					android:textColor="#DB1A0E"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:background="#1FE319"
+				android:gravity="center">
+
+				<TextView
+					android:text="Status:"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:textSize="40sp"
+					android:textColor="#D4261A"
+					android:id="@+id/StatusSwicth"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
